@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <script src="jquery.js" type="text/javascript"></script>
+        <script src="bootstrap.min.js" type="text/javascript"></script>
+        <script src="momentjs.js" type="text/javascript"></script>
+        <script src="websocket.js" type="text/javascript"></script>
+    </head>
+    <body> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <span class="glyphicon glyphicon-comment"></span> Chat
+                            <div class="btn-group pull-right">
+                                <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-chevron-down"></span>
+                                </button>
+                                <ul class="dropdown-menu slidedown">
+                                     
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="chat">
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="text-form">
+                        <div class="input-group">
+                            <textarea  id="btn-input" class="form-control input-sm" placeholder="Type your message here..."></textarea>
+                             <span class="input-group-btn">
+                                <button class="btn btn-warning btn-sm" id="btn-chat" onclick="formSubmit()">
+                                    Send</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

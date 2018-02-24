@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/apps/WebsocketHome/web/index.html</file>
+            <file>file:/D:/apps/WebsocketHome/web/style.css</file>
+            <file>file:/D:/apps/WebsocketHome/src/java/org/example/websocket/ChatSessionHandler.java</file>
+            <file>file:/D:/apps/WebsocketHome/web/bootstrap.min.css</file>
+            <file>file:/D:/apps/WebsocketHome/web/websocket.js</file>
+            <file>file:/D:/apps/WebsocketHome/src/java/org/example/model/Chat.java</file>
+            <file>file:/D:/apps/WebsocketHome/web/momentjs.js</file>
+            <file>file:/D:/apps/WebsocketHome/src/java/org/example/websocket/ChatWebSocketServer.java</file>
+        </group>
+    </open-files>
+</project-private>
